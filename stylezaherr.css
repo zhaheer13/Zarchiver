@@ -1,0 +1,73 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+}  
+
+        .right-icons {
+                float: left;
+                position: relative;
+                margin-left: 4%;
+
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #4a3b1b;
+            padding: 10px;
+            color: white;
+        }
+        .header .left-icons, .header .right-icons {
+            display: flex;
+            align-items: center;
+        }
+        .header .left-icons i, .header .right-icons i {
+            margin-right: 10px;
+        }
+        .header .title {
+            font-size: 20px;
+        }
+        .file-list {
+            padding: 10px;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+        }
+        .file-item img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .file-item .file-info {
+            display: flex;
+            align-items: center;
+        }
+        .file-item .file-info .file-name {
+            font-size: 18px;
+        }
+        .file-item .file-info .file-details {
+            font-size: 14px;
+            color: #888;
+        }
+        .fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #b59a3b;
+            color: white;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+  
